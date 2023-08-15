@@ -74,7 +74,7 @@ spec:
                        backend:
                            service:
                                name: {{.Release.Name}}-microservice-service
-                                port:
+                               port:
                                     number: 30201
 
 
